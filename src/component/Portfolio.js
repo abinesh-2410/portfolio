@@ -6,7 +6,7 @@ import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BsBoxArrowUpRight } from "react-icons/bs";
-function Protfolio() {
+function Portfolio() {
   // const menuData=[{path:'/',name:"projects"},
   //   {path:'/about',name:"skills"},
   //   {path:'/contact',name:"contact"}
@@ -20,7 +20,7 @@ function Protfolio() {
             
        <Navbar expand="lg" className="navbar">
       <Container>
-        <Navbar.Brand href="#home" className='name'>Protfolio.</Navbar.Brand>
+        <Navbar.Brand href="#home" className='name'>Portfolio.</Navbar.Brand>
         <  Navbar.Toggle aria-controls="basic-navbar-nav"className='symbol'/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto">
@@ -57,4 +57,4 @@ function Protfolio() {
   )
 }
 
-export default Protfolio
+export default Portfolio

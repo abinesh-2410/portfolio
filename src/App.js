@@ -1,6 +1,6 @@
 
 import './index.css';
-import Protfolio from './component/Protfolio';
+import Portfolio from './component/Portfolio';
 import Second from './component/Second';
 import Third from './component/Third';
 import Fourthpage from './component/Fourthpage';
@@ -12,7 +12,7 @@ function App() {
     <>
    
     
- <Protfolio/>
+ <Portfolio/>
 <Second/>
 <Third/>
 <Fourthpage/> 
